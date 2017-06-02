@@ -1,0 +1,38 @@
+.header {
+  box-shadow: 0 0 10px 0 #555;
+  padding: 20px;
+  background-color: $paper;
+
+  &__profile {
+   display: flex;
+   justify-content: center;
+   margin: 0;
+  }
+
+  &__profilePicture {
+    $picture-size: 100px;
+    width: $picture-size;
+    height: $picture-size;
+    border-radius: 50%;
+  }
+
+  &__profileDetails {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      margin: 5px;
+    }
+  }
+
+  &__separator {
+    width: 50%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #bbb;
+    margin: 30px auto;
+  }
+}

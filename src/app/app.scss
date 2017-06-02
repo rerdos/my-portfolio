@@ -1,0 +1,9 @@
+@import './variables';
+@import './header/header';
+
+body {
+  margin: 0;
+  background-color: $lavendar;
+  font-family: $font-stack;
+  color: #444;
+}
