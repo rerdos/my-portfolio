@@ -1,7 +1,7 @@
 import template from './timelineCard.html';
 
 export default angular
-  .module('appTimelineCard', [])
+  .module('app.common.timeline.timelineCard', [])
   .component('appTimelineCard', {
     template,
     bindings: {

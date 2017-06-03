@@ -1,7 +1,7 @@
 import template from './title.html';
 
 export default angular
-  .module('app.title', [])
+  .module('app.common.title', [])
   .component('appTitle', {
     template,
     bindings: {

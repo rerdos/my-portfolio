@@ -1,0 +1,21 @@
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__tag:nth-child(odd) {
+    background-color: $overcast;
+  }
+
+  &__tag:nth-child(even) {
+    background-color: $dusty;
+  }
+
+  &__tag {
+    display: block;
+    color: #efefef;
+    padding: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+}

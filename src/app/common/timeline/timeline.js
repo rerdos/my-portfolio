@@ -3,7 +3,7 @@ import title from './../title/title.js';
 import timelineCard from './timelineCard/timelineCard.js';
 
 export default angular
-  .module('app.timeline', [
+  .module('app.common.timeline', [
     title,
     timelineCard
   ])

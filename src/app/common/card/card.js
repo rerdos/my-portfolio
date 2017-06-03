@@ -2,7 +2,7 @@ import template from './card.html';
 import title from './../title/title.js';
 
 export default angular
-  .module('app.card', [
+  .module('app.common.card', [
     title
   ])
   .component('appCard', {
