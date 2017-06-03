@@ -3,27 +3,21 @@
     <img src="/images/profile.jpg" class="header__profilePicture" />
     <figcaption class="header__profileDetails">
       <p>
-        <strong>Richard Erdos</strong>
+        <strong>{{$ctrl.data.name}}</strong>
       </p>
       <p>
-        Junior Software Developer
+        {{$ctrl.data.role}}
       </p>
     </figcaption>
   </figure>
   
   <hr class="header__separator" />
   <div class="header__contactLinks">
-    <p>
-      <i class="fa fa-envelope-o fa-fw"></i>
-      richard.erdos@me.com
-    </p>
-    <p>
-      <i class="fa fa-github fa-fw"></i>
-      rerdos
-    </p>
-    <p>
-      <i class="fa fa-linkedin-square fa-fw"></i>
-      linkedin.com/in/richarderdos
+    <p ng-repeat="contactDetail in $ctrl.data.contacts">
+      <a href="{{contactDetail.url}}" target="{{contactDetail.target}}">
+        <i class="{{contactDetail.icon}}"></i>
+        {{contactDetail.text}}
+      </a>
     </p>
   </div>
 </header>

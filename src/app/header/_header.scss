@@ -1,5 +1,6 @@
+// Mobile (default)
 .header {
-  box-shadow: 0 0 10px 0 #555;
+  box-shadow: 0 0 10px 0 $grey;
   padding: 20px;
   background-color: $paper;
 
@@ -32,7 +33,24 @@
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #bbb;
+    border-top: 1px solid $off-white;
     margin: 30px auto;
+  }
+}
+
+// Tablets and larger
+@media screen and (min-width: $screen-sm) {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__separator {
+      display: none;
+    }
+
+    &__contactLinks {
+      margin-left: 50px;
+    }
   }
 }

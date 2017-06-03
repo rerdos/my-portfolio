@@ -1,0 +1,24 @@
+{
+  "profile_picture_url": "/images/profile.jpg",
+  "name": "Richard Erdos",
+  "role": "Junior Software Developer",
+  "contacts": [
+    {
+      "icon": "fa fa-envelope-o fa-fw",
+      "text": "richard.erdos@me.com",
+      "url": "mailto:richard.erdos@me.com"
+    },
+    {
+      "icon": "fa fa-github fa-fw",
+      "text": "rerdos",
+      "url": "https://github.com/rerdos",
+      "target": "_blank"
+    },
+    {
+      "icon": "fa fa-linkedin-square fa-fw",
+      "text": "linkedin.com/in/richarderdos",
+      "url": "https://www.linkedin.com/in/richarderdos",
+      "target": "_blank"
+    }
+  ]
+}
