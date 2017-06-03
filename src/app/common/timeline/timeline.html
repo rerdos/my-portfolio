@@ -1,8 +1,5 @@
 <article class="timeline">
-  <h2 class="timeline__name">
-    <span class="{{$ctrl.timeline.icon}} timeline__nameIcon"></span>
-    <span class="timeline__nameText">{{$ctrl.timeline.name}}</span>
-  </h2>
+  <app-title text="$ctrl.timeline.name" icon="$ctrl.timeline.icon"></app-title>
   <div class="timeline__card" ng-repeat="card in $ctrl.timeline.cards">
     <app-timeline-card card="card"></app-timeline-card>
   </div>

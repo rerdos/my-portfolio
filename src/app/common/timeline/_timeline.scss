@@ -2,46 +2,6 @@
   margin: 20px;
   position: relative;
 
-  &__name {
-    position: relative;
-    display: flex;
-    align-items: center;
-  }
-
-  &__name::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: calc(100% - 69px);
-    height: 1px;
-    background: $paper;
-  }
-
-  &__nameIcon {
-    position: relative;
-    padding: 10px;
-    background-color: $paper;
-    border-radius: 5px;
-  }
-
-  &__nameIcon::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    margin-left: -10px;
-    bottom: -10px;
-    border-top: 10px solid $paper;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-  }
-
-  &__nameText {
-    color: $paper;
-    margin-left: 25px;
-    width: 100%;
-  }
-
   &__card {
     padding-bottom: 20px;
   }
@@ -55,4 +15,5 @@
   width: 3px;
   background-color: $overcast;
   margin-left: 20px;
+  border-radius: 1.5px;
 }

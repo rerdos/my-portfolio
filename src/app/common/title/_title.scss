@@ -1,0 +1,41 @@
+.title {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &__nameIcon {
+    position: relative;
+    padding: 10px;
+    background-color: $paper;
+    border-radius: 5px;
+    width: 25px;
+    text-align: center;
+  }
+
+  &__nameIcon::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    bottom: -10px;
+    border-top: 10px solid $paper;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+  }
+
+  &__nameText {
+    color: $paper;
+    margin-left: 25px;
+    width: 100%;
+  }
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: calc(100% - 69px);
+  height: 1px;
+  background: $paper;
+}
