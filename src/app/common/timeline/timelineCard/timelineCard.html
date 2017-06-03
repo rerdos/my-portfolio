@@ -1,0 +1,32 @@
+<section class="timelineCard">
+  <div>
+    <span class="timelineCard__year">
+      {{$ctrl.card.year}}
+    </span>
+  </div>
+  <div class="timelineCard__card">
+    <h3
+      class="timelineCard__name"
+      ng-class="{'timelineCard__name--marginBottom': !$ctrl.card.role}">
+      {{$ctrl.card.name}}
+    </h3>
+    <h4 class="timelineCard__role" ng-if="$ctrl.card.role">
+      {{$ctrl.card.role}}
+    </h4>
+    <p ng-repeat="resource in $ctrl.card.resources" class="timelineCard__resource">
+      <span ng-if="resource.url">
+        <a href="{{resource.url}}" target="_blank">
+          <i class="{{resource.icon}}"></i>
+          {{resource.name}}
+        </a>
+      </span>
+      <span ng-if="!resource.url">
+        <i class="{{resource.icon}}"></i>
+        {{resource.name}}
+      </span>
+    </p>
+    <p>
+      Developed the SAM App in node-webkit and in electron, using HTML5, CSS3, SASS, AngularJS, TypeScript and Foundation. Enhanced the payment flow and responsiveness of the website with technologies such as Jade, jQuery, JavaScript, CSS3, LESS and Bootstrap grid.
+    </p>
+  </div>
+</section>

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Work History",
+    "icon": "fa fa-briefcase",
+    "cards": [
+      {
+        "year": "2015",
+        "name": "SAM Labs Ltd.",
+        "role": "Junior Software Developer",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "August 2015 - present"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "London, United Kingdom"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "SAM Labs website",
+            "url": "https://www.samlabs.com/"
+          }
+        ]
+      }
+    ]
+  }
+]

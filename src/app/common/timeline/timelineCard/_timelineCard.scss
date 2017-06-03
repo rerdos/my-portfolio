@@ -1,0 +1,59 @@
+.timelineCard {
+  $small-font-size: 14px;
+
+  &__year {
+    $size: 44px;
+    position: absolute;
+    display: flex;
+    margin-top: 19px;
+    justify-content: center;
+    align-items: center;
+    background-color: $paper;
+    font-weight: bold;
+    height: $size;
+    width: $size;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  &__card {
+    position: relative;
+    background-color: $paper;
+    margin-left: 69px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 $grey;
+  }
+
+  &__card::before {
+    position: absolute;
+    top: 26px;
+    left: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 0 solid $paper;
+    border-right: 15px solid $paper;
+    border-bottom: 15px solid transparent;
+    content: " ";
+  }
+
+  &__name {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  &__name--marginBottom {
+    margin-bottom: 18px;
+  }
+
+  &__role {
+    margin-top: 0;
+    font-size: $small-font-size;
+    font-weight: normal;
+    color: $grey;
+  }
+
+  &__resource {
+    margin: 8px 0;
+    font-size: $small-font-size;
+  }
+}

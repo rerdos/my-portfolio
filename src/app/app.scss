@@ -1,5 +1,7 @@
 @import './variables';
 @import './header/header';
+@import './common/timeline/timeline';
+@import './common/timeline/timelineCard/timelineCard';
 
 body {
   margin: 0;
@@ -9,13 +11,13 @@ body {
 }
 
 a {
-  color: #444;
+  color: $anchor;
   text-decoration: none;
   transition: .2s;
 }
 
 a:hover {
-  color: #000;
+  color: $anchor-hover;
   text-decoration: none;
   transition: .5s;
 }
