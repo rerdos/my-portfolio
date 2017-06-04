@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  background-color: $lavendar;
+  font-family: $font-stack;
+  color: #444;
+}
+
+a {
+  color: $anchor;
+  text-decoration: none;
+  transition: .2s;
+}
+
+a:hover {
+  color: $anchor-hover;
+  text-decoration: none;
+  transition: .5s;
+}
+
+.wrapper {
+  padding: 20px;
+}
+
+@media screen and (min-width: $screen-sm) {
+  .wrapper {
+    margin: 0 auto;
+    max-width: $screen-lg;
+    display: flex;
+    padding: 20px;
+
+    &__content {
+      width: 70%;
+      margin-right: 40px;
+    }
+
+    &__sidebar {
+      width: 30%;
+    }
+  }
+}
