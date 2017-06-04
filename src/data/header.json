@@ -19,6 +19,12 @@
       "text": "linkedin.com/in/richarderdos",
       "url": "https://www.linkedin.com/in/richarderdos",
       "target": "_blank"
+    },
+    {
+      "icon": "fa fa-file-text fa-fw",
+      "text": "Download my CV",
+      "url": "/documents/richard-erdos-cv.pdf",
+      "target": "_blank"
     }
   ]
 }
