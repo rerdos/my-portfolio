@@ -1,0 +1,34 @@
+.list {
+  &__element:nth-child(odd) {
+    background-color: $overcast;
+  }
+
+  &__element:nth-child(even) {
+    background-color: $dusty;
+  }
+
+  &__element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #efefef;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  // &__content {
+  //   display: inline-block;
+  //   vertical-align: middle;
+  // }
+
+  &__info {
+    // text-align: right;
+    // display: inline-block;
+    // vertical-align: middle;
+    background-color: $grey;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
