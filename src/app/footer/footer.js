@@ -9,8 +9,6 @@ class FooterCtrl {
 
     $ctrl.name = footer.name;
     $ctrl.interval = getCopyrightDuration(footer.created_in)
-
-    console.log($ctrl.interval);
   }
 }
 

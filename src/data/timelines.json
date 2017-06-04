@@ -7,6 +7,7 @@
         "year": "2015",
         "name": "SAM Labs Ltd.",
         "role": "Junior Software Developer",
+        "description": "<p>Participated in the development of the SAM desktop application for Mac and Windows in node-webkit and in electron, using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>SASS</strong>, <strong>AngularJS</strong>, <strong>TypeScript</strong> (later on <strong>ES6</strong>) and <strong>Foundation</strong>. Researched and integrated new features into the app such as an audio player and folder management for both Windows and Mac with <strong>JavaScript</strong> (Node.js). Used <strong>Facebook</strong> and <strong>Twitter API</strong>s to enhance the authentication flow, therefore increase the user experience.</p><p>Took over the website development and refactored the entirety of it with a short deadline in order to create a much more responsive website and to decrease load time before the launch our new product to make the conversion rates higher. <strong>Elixir EEx</strong>, <strong>RethinkDB</strong> and simple <strong>JavaScript Custom Components</strong> have been used. A custom admin panel for recurring tasks has been developed so the Marketing team can modify some parts of the website. By doing so reducing and reallocating human resources to other projects. <strong>Choo</strong> framework and <strong>Elixir</strong> have been used for that.</p><p>Started to work on business solutions to automate the flow of orders, from the point of sale until the time of the shipment confirmation. Worked with and connected different APIs (Xero, Unleashed, SalesForce, etc.), normalised and stored data in Erlang’s ETS, created a UI for internal use with <strong>React</strong> and <strong>Redux</strong> to track the data in these backend processes. <strong>Elixir (with OTP)</strong> has been used to spawn processes to gather, normalise and put sales data from one API to another.",
         "resources": [
           {
             "icon": "fa fa-calendar",
@@ -30,13 +31,37 @@
     "icon": "fa fa-book",
     "cards": [
       {
-        "year": "2015",
-        "name": "SAM Labs Ltd.",
-        "role": "Junior Software Developer",
+        "year": "2017",
+        "name": "My Portfolio",
+        "description": "A static portfolio website that allows its owner to display any achievement or important point in his/her life, like work history or/and project history. Furthermore a sidebar is included where that person can highlight his/her skills, spoken languages and the place where he/she is located. This static page was built with by <strong>AngularJS 1.6</strong>, <strong>ES6</strong>, and <strong>SASS</strong>. <strong>Webpack 2</strong> was used as module bundler to generate builds.",
         "resources": [
           {
             "icon": "fa fa-calendar",
-            "name": "August 2015 - present"
+            "name": "June 2017"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "London, United Kingdom"
+          },
+          {
+            "icon": "fa fa-smile-o",
+            "name": "You are looking at the demo"
+          },
+          {
+            "icon": "fa fa-github",
+            "name": "rerdos/my-portfolio",
+            "url": "https://github.com/rerdos/my-portfolio"
+          }
+        ]
+      },
+      {
+        "year": "2015",
+        "name": "MyMiniFactory",
+        "description": "AngularJS application that requests 3D objects's data from a locally provided JSON file, then applies it into a fully responsive website with a simple search option that is powered by Angular filters. Furthermore, a modal has been applied from Angular Foundation library in order to bring more interactivity to the website. Responsive design was provided by Foundation library. Bower was used in order to manage AngularJS, Foundation and Angular-foundation libraries during and after the development.",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "July 2015"
           },
           {
             "icon": "fa fa-map-marker",
@@ -44,8 +69,48 @@
           },
           {
             "icon": "fa fa-external-link",
-            "name": "SAM Labs website",
-            "url": "https://www.samlabs.com/"
+            "name": "Demo",
+            "url": "https://rerdos.github.io/myminifactory"
+          }
+        ]
+      },
+      {
+        "year": "2015",
+        "name": "Final Exam",
+        "description": "Single page application that calculates how many points the student must earn in order to get the better grade in the end of the Hungarian school leaving exam. This application has been developed in AngularJS. Data that the user has provided is stored in the LocalStorage, so users don't have to input their data each time when they visit the website. It contains Bootstrap in order to normalize the webpage (so it will appear the same in every browser) and to have predesigned alert boxes.",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "June 2015"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "Hungary"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "Demo",
+            "url": "https://rerdos.github.io/finalexam"
+          }
+        ]
+      },
+      {
+        "year": "2015",
+        "name": "Todos",
+        "description": "A simple ‘todo’ application that allows its users to add, delete or edit a new or existing to do. Interactivity is provided by AngularJS. The design of alert boxes, lists and buttons as well its responsive design come from Bootstrap framework.",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "June 2015"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "Hungary"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "Demo",
+            "url": "https://rerdos.github.io/todo"
           }
         ]
       }
