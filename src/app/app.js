@@ -4,6 +4,7 @@ import timeline from './common/timeline/timeline.js';
 import skills from'./skills/skills.js';
 import languages from'./languages/languages.js';
 import location from './location/location.js';
+import footer from './footer/footer.js';
 
 angular.module('app', [
   header,
@@ -11,5 +12,6 @@ angular.module('app', [
   content,
   skills,
   languages,
-  location
+  location,
+  footer
 ]);
