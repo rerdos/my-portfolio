@@ -4,6 +4,27 @@
     "icon": "fa fa-briefcase",
     "cards": [
       {
+        "year": "2017",
+        "name": "TalkTalk Group Plc.",
+        "role": "Product Developer (Angular)",
+        "description": "Working on the sales app and the web shop for new customers using technologies like <strong>AngularJS</strong>, <strong>OOP JavaScript</strong>, <strong>Bootstrap</strong> and <strong>ES6</strong>. Developed a new journey that is more enticing and makes easier for new customers to join TalkTalk and therefore making conversion rates higher. Worked on promotions and implemented fully responsive pages with short deadlines that suits the needs of the business.",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "May 2017 - present"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "London, United Kingdom"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "TalkTalk website",
+            "url": "https://www.talktalk.co.uk/shop/"
+          }
+        ]
+      },
+      {
         "year": "2015",
         "name": "SAM Labs Ltd.",
         "role": "Junior Software Developer",
@@ -11,7 +32,7 @@
         "resources": [
           {
             "icon": "fa fa-calendar",
-            "name": "August 2015 - present"
+            "name": "August 2015 - April 2017"
           },
           {
             "icon": "fa fa-map-marker",
