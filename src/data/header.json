@@ -1,12 +1,12 @@
 {
   "profile_picture_url": "/images/profile.jpg",
   "name": "Richard Erdos",
-  "role": "Product Developer (Angular)",
+  "role": "Software Engineer",
   "contacts": [
     {
       "icon": "fa fa-envelope-o fa-fw",
-      "text": "richard.erdos@me.com",
-      "url": "mailto:richard.erdos@me.com"
+      "text": "contact@richarderdos.com",
+      "url": "mailto:contact@richarderdos.com"
     },
     {
       "icon": "fa fa-github fa-fw",

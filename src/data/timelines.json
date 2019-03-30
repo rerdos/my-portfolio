@@ -4,14 +4,35 @@
     "icon": "fa fa-briefcase",
     "cards": [
       {
-        "year": "2017",
-        "name": "TalkTalk Group Plc.",
-        "role": "Product Developer (Angular)",
-        "description": "Working on the sales app and the web shop for new customers using technologies like <strong>AngularJS</strong>, <strong>OOP JavaScript</strong>, <strong>Bootstrap</strong> and <strong>ES6</strong>. Developed a new journey that is more enticing and makes easier for new customers to join TalkTalk and therefore making conversion rates higher. Worked on promotions and implemented fully responsive pages with short deadlines that suits the needs of the business.",
+        "year": "2018",
+        "name": "Nutmeg Saving And Investment Limited",
+        "role": "Software Engineer",
+        "description": "Working on internal screens for customer service and operations, as well as developing our cool customer facing web app. Our frontend tech stack is mainly made of <strong>React</strong>, <strong>Redux</strong> and <strong>Sagas</strong>. We also use Ruby on Rails, AngularJS, etc. in our legacy web app. All developments are done with <strong>BDD/TDD</strong> mentality, 100% test coverage as well as integration tests to ensure every story/bugfix we push to production via <strong>CI/CD</strong> are safe to be pushed.",
         "resources": [
           {
             "icon": "fa fa-calendar",
-            "name": "May 2017 - present"
+            "name": "March 2018 - present"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "London, United Kingdom"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "Nutmeg website",
+            "url": "https://www.nutmeg.com/"
+          }
+        ]
+      },
+      {
+        "year": "2017",
+        "name": "TalkTalk Group Plc.",
+        "role": "Product Developer (Angular)",
+        "description": "Worked on the sales app and the web shop for new customers using technologies like <strong>AngularJS</strong>, <strong>OOP JavaScript</strong>, <strong>Bootstrap</strong> and <strong>ES6</strong>. Developed a new journey that is more enticing and makes easier for new customers to join TalkTalk and therefore making conversion rates higher. Worked on promotions and implemented fully responsive pages with short deadlines that suits the needs of the business.",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "May 2017 - March 2018"
           },
           {
             "icon": "fa fa-map-marker",
@@ -51,6 +72,26 @@
     "name": "Project History",
     "icon": "fa fa-book",
     "cards": [
+      {
+        "year": "2019",
+        "name": "How Much ETH",
+        "description": "During a single weekend challange, I have implemented an Ethereum (cryptocurrency) payment system, where people could pay the equivalent of $1.49 to see how many people paid this amount in total. I used <strong>React</strong> and <strong>Redux</strong> on FE side and <strong>NodeJS</strong> and <strong>MongoDB</strong> on the backend side.",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "January 2019"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "London, United Kingdom"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "Demo",
+            "url": "https://rerdos.github.io/howmucheth"
+          }
+        ]
+      },
       {
         "year": "2017",
         "name": "My Portfolio",
