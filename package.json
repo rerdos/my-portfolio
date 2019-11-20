@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/rerdos/my-website#readme",
   "dependencies": {
-    "angular": "^1.6.4",
+    "angular": "^1.7.9",
     "angular-sanitize": "^1.6.4",
     "copy-webpack-plugin": "^4.0.1",
     "css-loader": "^0.28.4",
