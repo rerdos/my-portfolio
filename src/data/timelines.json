@@ -7,7 +7,7 @@
         "year": "2018",
         "name": "Nutmeg Saving And Investment Limited",
         "role": "Software Engineer",
-        "description": "Working on internal screens for customer service and operations, as well as developing our cool customer facing web app. Our frontend tech stack is mainly made of <strong>React</strong>, <strong>Redux</strong> and <strong>Sagas</strong>. We also use Ruby on Rails, AngularJS, etc. in our legacy web app. All developments are done with <strong>BDD/TDD</strong> mentality, 100% test coverage as well as integration tests to ensure every story/bugfix we push to production via <strong>CI/CD</strong> are safe to be pushed.",
+        "description": "<p>Joined into the early development of our atomic design system using React and SASS (with BEM). We also put extra effort into making all of our components fully accessible by W3C standards. Used Lerna to release new versions of components to our private npm repository. This design system is the core of every new UI at Nutmeg.</p><p>Rewrote pages within the sign-up and existing customer flows, using our component design system to create the UI, redux for handling & storing data, redux-sagas as side effect to fetch data from our REST APIs, and xstate as state machine for journey navigation.</p><p>Wrote an internal documentation about “pipeline management with Jenkins”, so new engineers can pick up our CI/CD much quicker with in-house examples.</p><p>Cross-team code reviews to ensure we uphold our coding practices, accessibility, and that we continue with TDD/BDD mentality with one-hundred percent unit test coverage across all React applications within the business.</p><p>Worked on our internal screens for CS & Operations using React, Redux, and React Bootstrap.</p><p>Migrated several pages from our legacy Ruby on Rails application to React.</p>",
         "resources": [
           {
             "icon": "fa fa-calendar",
@@ -28,7 +28,7 @@
         "year": "2017",
         "name": "TalkTalk Group Plc.",
         "role": "Product Developer (Angular)",
-        "description": "Worked on the sales app and the web shop for new customers using technologies like <strong>AngularJS</strong>, <strong>OOP JavaScript</strong>, <strong>Bootstrap</strong> and <strong>ES6</strong>. Developed a new journey that is more enticing and makes easier for new customers to join TalkTalk and therefore making conversion rates higher. Worked on promotions and implemented fully responsive pages with short deadlines that suits the needs of the business.",
+        "description": "<p>Worked on the TalkTalk web shop using AngularJS, OOP JavaScript (ES6), and Bootstrap.</p><p>Maintained and improved E2E pipelines using Selenium WebDriver, so our tests became more stable & reliable.</p><p>Increased conversion rates by developing a new sales journey and A/B testing it.</p><p>Developed responsive pages for new products & promotions.</p>",
         "resources": [
           {
             "icon": "fa fa-calendar",
@@ -49,7 +49,7 @@
         "year": "2015",
         "name": "SAM Labs Ltd.",
         "role": "Junior Software Developer",
-        "description": "<p>Participated in the development of the SAM desktop application for Mac and Windows in node-webkit and in electron, using <strong>HTML5</strong>, <strong>CSS3</strong>, <strong>SASS</strong>, <strong>AngularJS</strong>, <strong>TypeScript</strong> (later on <strong>ES6</strong>) and <strong>Foundation</strong>. Researched and integrated new features into the app such as an audio player and folder management for both Windows and Mac with <strong>JavaScript</strong> (Node.js). Used <strong>Facebook</strong> and <strong>Twitter API</strong>s to enhance the authentication flow, therefore increase the user experience.</p><p>Took over the website development and refactored the entirety of it with a short deadline in order to create a much more responsive website and to decrease load time before the launch our new product to make the conversion rates higher. <strong>Elixir EEx</strong>, <strong>RethinkDB</strong> and simple <strong>JavaScript Custom Components</strong> have been used. A custom admin panel for recurring tasks has been developed so the Marketing team can modify some parts of the website. By doing so reducing and reallocating human resources to other projects. <strong>Choo</strong> framework and <strong>Elixir</strong> have been used for that.</p><p>Started to work on business solutions to automate the flow of orders, from the point of sale until the time of the shipment confirmation. Worked with and connected different APIs (Xero, Unleashed, SalesForce, etc.), normalised and stored data in Erlang’s ETS, created a UI for internal use with <strong>React</strong> and <strong>Redux</strong> to track the data in these backend processes. <strong>Elixir (with OTP)</strong> has been used to spawn processes to gather, normalise and put sales data from one API to another.",
+        "description": "<p>Worked on a multi platform electron application using HTML5, CSS3, SASS, AngularJS, TypeScript (later on ES6), and Foundation.</p><p>Completely rewrote the company website and its web shop using Elixir EEx, RethinkDB and JavaScript Custom Elements. Later on integrated the custom web shop with Shopify.</p><p>Created an CMS panel for the marketing site with Choo and Elixir, so copy changes could be done without input from the engineering team.</p><p>Worked on API integrations between Xero, Unleashed, SalesForce, and Horizon to automate the flow of orders from the point of sale until the shipment confirmation.</p><p>Developed a control panel with React and Redux to track the status of orders.</p>",
         "resources": [
           {
             "icon": "fa fa-calendar",
@@ -74,8 +74,28 @@
     "cards": [
       {
         "year": "2019",
+        "name": "MyBlizzCon",
+        "description": "Created a trading website so people going to BlizzCon 2019 convention, can find a partner to trade their commemorative statues with. React, React Router, and SASS  was used on the frontend. NodeJS, Express and MongoDB was used on the backend.",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "November 2019"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "London, United Kingdom"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "Demo",
+            "url": "https://rerdos.github.io/myblizzcon"
+          }
+        ]
+      },
+      {
+        "year": "2019",
         "name": "How Much ETH",
-        "description": "During a single weekend challange, I have implemented an Ethereum (cryptocurrency) payment system, where people could pay the equivalent of $1.49 to see how many people paid this amount in total. I used <strong>React</strong> and <strong>Redux</strong> on FE side and <strong>NodeJS</strong> and <strong>MongoDB</strong> on the backend side.",
+        "description": "During a single weekend challange, I have implemented an Ethereum (cryptocurrency) payment system, where people could pay the equivalent of $1.49 to see how many people paid this amount in total. I used React and Redux on FE side and NodeJS and MongoDB on the backend side.",
         "resources": [
           {
             "icon": "fa fa-calendar",
@@ -95,7 +115,7 @@
       {
         "year": "2017",
         "name": "My Portfolio",
-        "description": "A static portfolio website that allows its owner to display any achievement or important point in his/her life, like work history or/and project history. Furthermore a sidebar is included where that person can highlight his/her skills, spoken languages and the place where he/she is located. This static page was built with by <strong>AngularJS 1.6</strong>, <strong>ES6</strong>, and <strong>SASS</strong>. <strong>Webpack 2</strong> was used as module bundler to generate builds.",
+        "description": "A static portfolio website that allows its owner to display any achievement or important point in his/her life, like work history or/and project history. Furthermore a sidebar is included where that person can highlight his/her skills, spoken languages and the place where he/she is located. This static page was built with by AngularJS 1.6, ES6, and SASS. Webpack 2 was used as module bundler to generate builds.",
         "resources": [
           {
             "icon": "fa fa-calendar",
