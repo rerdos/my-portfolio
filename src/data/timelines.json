@@ -4,6 +4,27 @@
     "icon": "fa fa-briefcase",
     "cards": [
       {
+        "year": "2020",
+        "name": "TransferWise Ltd",
+        "role": "Frontend Developer",
+        "description": "",
+        "resources": [
+          {
+            "icon": "fa fa-calendar",
+            "name": "April 2020 - present"
+          },
+          {
+            "icon": "fa fa-map-marker",
+            "name": "London, United Kingdom"
+          },
+          {
+            "icon": "fa fa-external-link",
+            "name": "Wise (formerly TransferWise) website",
+            "url": "https://wise.com/"
+          }
+        ]
+      },
+      {
         "year": "2018",
         "name": "Nutmeg Saving And Investment Limited",
         "role": "Software Engineer",
@@ -11,7 +32,7 @@
         "resources": [
           {
             "icon": "fa fa-calendar",
-            "name": "March 2018 - present"
+            "name": "March 2018 - April 2020"
           },
           {
             "icon": "fa fa-map-marker",

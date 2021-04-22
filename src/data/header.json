@@ -1,29 +1,29 @@
 {
   "profile_picture_url": "/images/profile.jpg",
-  "name": "Richard Erdos",
-  "role": "Software Engineer",
+  "name": "Cynthia Erdos",
+  "role": "Frontend Developer",
   "contacts": [
     {
       "icon": "fa fa-envelope-o fa-fw",
-      "text": "contact@richarderdos.com",
-      "url": "mailto:contact@richarderdos.com"
+      "text": "contact@cynthiaerdos.com",
+      "url": "mailto:contact@cynthiaerdos.com"
     },
     {
       "icon": "fa fa-github fa-fw",
-      "text": "rerdos",
-      "url": "https://github.com/rerdos",
+      "text": "cynthiaerdos",
+      "url": "https://github.com/cynthiaerdos",
       "target": "_blank"
     },
     {
       "icon": "fa fa-linkedin-square fa-fw",
-      "text": "linkedin.com/in/richarderdos",
-      "url": "https://www.linkedin.com/in/richarderdos",
+      "text": "linkedin.com/in/cynthiaerdos",
+      "url": "https://www.linkedin.com/in/cynthiaerdos",
       "target": "_blank"
     },
     {
       "icon": "fa fa-file-text fa-fw",
       "text": "Download my CV",
-      "url": "/documents/richard-erdos-cv.pdf",
+      "url": "/documents/cynthia-erdos-cv.pdf",
       "target": "_blank"
     }
   ]
