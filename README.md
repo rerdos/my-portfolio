@@ -1,7 +1,7 @@
 # My Portfolio
 It's a cool looking portfolio website that could suit any programmer's needs.
 
-[DEMO](http://www.richarderdos.com)
+[DEMO](https://cynthiaerdos.com)
 
 ## Setup
 
